@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Home from "./pages/Home";
 import CreateTweet from "./pages/CreateTweet";
+// import Card from "./pages/Card";
 
 ReactDOM.render(
   <Router>
