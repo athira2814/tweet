@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.form-floating {
+  width: 30%;
+  height: 25%;
+  top: 40%;
+  right: 42%;
+  position: absolute;
+  outline: None;
+}
+
+.shadow {
+  box-shadow: 5px 10px whitesmoke;
+}
+
+textarea {
+  resize: none;
+}
+
+textarea::-webkit-scrollbar {
+  display: none;
+}
+
+.tweet-btn {
+  position: absolute;
+  top: 67%;
+  right: 42%;
+  width: 4rem;
+  height: 2rem;
+  border-radius: 20px;
+  border: None;
+  color: lavender;
+  background-color: tomato;
+}
+
+input {
+  top: 30%;
+  right: 52%;
+  height: 5%;
+  width: 20%;
+  position: absolute;
+  border-radius: 4px;
+  border-width: 0.02em;
+  border-color: #ebebe0;
+  outline: None;
+}
