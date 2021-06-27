@@ -2,8 +2,8 @@
   box-sizing: border-box;
 }
 body {
-  overflow-x: hidden;
-  overflow-y: hidden;
+  /* overflow-x: hidden; */
+  /* overflow-y: hidden; */
   padding: 0;
   margin: 0;
 }
@@ -56,4 +56,23 @@ input {
   border-width: 0.02em;
   border-color: #ebebe0;
   outline: None;
+}
+.card {
+  width: 500px;
+  height: 200px;
+  top: 20px;
+  left: 400px;
+  box-shadow: 0 2px 4px 0 rgba(172, 172, 172, 0.2);
+  margin-bottom: 20px;
+}
+.name-display {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.tweet-display {
+  margin-left: 10px;
+}
+.link {
+  margin-top: 500px;
+
 }
